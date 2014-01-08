@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^alexanderbrand.me$ [NC]
+RewriteRule ^(.*)$ http://alexanderbrand.me/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteCond %{REQUEST_FILENAME}\.html -f  
+RewriteRule ^(.*)$ $1.html

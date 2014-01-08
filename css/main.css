@@ -1,0 +1,160 @@
+* {
+    position:relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/light-sketch.png);
+    font-family:'Helvetica Neue',Helvetica;
+    font-weight:300;
+    color:#333;
+    width:100%;
+}
+
+.card {
+    background-color:#fff;
+    box-shadow: 0 0 10px #666;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.vcard {
+    width:500px;
+    height:460px;
+    margin:-230px auto 0;
+    top:50%;
+    background-color:#fff;
+    box-shadow: 0 0 10px #666;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.vcard > div {
+    padding:20px 30px;
+}
+
+.picture {
+    height:150px;
+    background-image:url(../img/toronto-retina.png);
+    /*background-position-y:-180px;*/
+    background-size: 100%;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.personal {
+    margin-top:10px;
+    height:100px;
+}
+
+.personal > h2 {
+    margin:0px;
+    margin-top:5px;
+}
+
+.personal > span {
+    font-weight: 300;
+}
+
+.personal > img {
+    height:120px;
+    float:left;
+    top:-10px;
+    margin-right:30px;
+}
+
+.personal > .btn {
+    margin-top:7px;
+}
+
+.description {
+    text-align:center;
+}
+
+.description > p {
+    margin:0;
+    margin-bottom:15px;
+}
+
+/* Portfolio */
+.banner {
+    padding:25px;
+    /*text-align: center;*/
+    color: #343434;
+}
+
+.banner-horizontal {
+    position:fixed;
+    left:50px;
+}
+
+.banner a {
+    color: #343434;
+}
+
+.banner h2,h3 {
+    display:inline;
+}
+
+.banner .label {
+    top:7px;
+    margin-right: 5px;
+}
+
+.portfolio-card {
+    width:60%;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+
+.portfolio-card img {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.portfolio-horizontal {
+    top:135px;
+    padding:0 30px;
+}
+
+.card-horizontal {
+    width:800px;
+    height:570px;
+    margin:0 40px;
+}
+
+.page-description {
+    padding:10px 20px;
+    position:relative;
+    font-size:1.2em;
+    border-top:1px solid #ccc;
+}
+
+.page-description h3 {
+    margin:0;
+}
+
+.page-description .label {
+    top:5px;
+}
+
+tr {
+    vertical-align:top;
+}
