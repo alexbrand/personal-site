@@ -43,8 +43,10 @@ body {
 }
 
 .picture {
+    display:block;
+    padding:20px 30px;
     height:150px;
-    background-image:url(../img/toronto-retina.png);
+    background-image:url(../img/apprenda.png);
     /*background-position-y:-180px;*/
     background-size: 100%;
     -webkit-border-top-left-radius: 4px;
